@@ -161,3 +161,10 @@ nav .navbar-nav a {
 .card-body {
 	outline: solid red;
 }
+
+.numberContainer {
+	background-color: rgb(38, 38, 126);
+	border-radius: 50px;
+	width: 30px;
+	height: 30px;
+}
