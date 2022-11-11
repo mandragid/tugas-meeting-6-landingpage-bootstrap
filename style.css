@@ -157,3 +157,7 @@ nav .navbar-nav a {
 	border-radius: 8px;
 	padding: 20px;
 }
+
+.card-body {
+	outline: solid red;
+}
