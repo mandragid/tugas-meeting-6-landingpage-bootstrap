@@ -26,7 +26,7 @@
 
 		<div class="container-fluid nav-container">
 			<div class="container">
-				<nav class="navbar navbar-expand-lg">
+				<nav class="navbar navbar-lg">
 					<div class="container-fluid">
 						<a href="home"><img src="./assets/img/logo-white.svg" alt="logo-white" /></a>
 						<button
@@ -35,7 +35,7 @@
 							data-bs-toggle="collapse"
 							data-bs-target="#navbarSupportedContent"
 							aria-controls="navbarSupportedContent"
-							aria-expanded="false"
+							aria-expanded="true"
 							aria-label="Toggle navigation"
 						>
 							<span class="navbar-toggler-icon"></span>
@@ -212,22 +212,22 @@
 
 		<div class="container-fluid section-4">
 			<div class="row">
-				<div class="col">
+				<div class="col-12 order-2 order-md-1 col-sm-6 col-lg-6">
 					<div class="container">
 						<div class="row mx-auto">
-							<div class="col mx-auto">
+							<div class="col-12 col-sm-6 mt-5 fullwidth-split-text">
 								<h3>Synced for your convenience</h3>
 								<p id="intro-4-desc">Fuss-free and simple to use</p>
 								<ul>
 									<li>
 										<i class="bi bi-arrow-down-right"></i>
 
-										Media
+										<b> Media</b>
 										<p>A short description of the aforementioned facet to easily digest. No need to divulge too much information in this text area.</p>
 									</li>
 									<li>
 										<i class="bi bi-layers-fill"></i>
-										Cards
+										<b> Cards</b>
 										<p>Another brief description of a facet that, as before, doesn't need to go into great detail.</p>
 									</li>
 								</ul>
@@ -236,7 +236,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="col"><img class="w-100" src="./assets/img/photo-woman-writing.jpg" alt="" /></div>
+				<div class="col-12 order-1 order-md-2 col-sm-6 col-lg-6"><img class="w-100" src="./assets/img/photo-woman-writing.jpg" alt="" /></div>
 			</div>
 		</div>
 
@@ -244,14 +244,15 @@
 
 		<div class="container-fluid">
 			<div class="row">
-				<div class="col"><img class="w-100" src="./assets/img/photo-man-phone.jpg" alt="photo-man-phone" /></div>
-				<div class="col">
-					<p>It's everything, all in one place</p>
+				<div class="col-12 col-sm-6 col-lg-6"><img class="w-100" src="./assets/img/photo-man-phone.jpg" alt="photo-man-phone" /></div>
+				<div class="col-12 col-sm-6 col-lg-5 mt-5">
+					<h3>It's everything, all in one place</h3>
 					<p>Unifying your team's workflow</p>
 					<ul>
-						<li>Images</li>
+						<li><i class="bi bi-card-image"></i><b> Images</b></li>
+
 						<p>A short description of the aforementioned facet to easily digest. No need to divulge too much information in this text area.</p>
-						<li>Notes</li>
+						<li><i class="bi bi-card-checklist"></i><b> Notes</b></li>
 						<p>Another brief description of a facet that, as before, doesn't need to go into great detail.</p>
 					</ul>
 					<div class="learn-more"><a href="">Learn more about Workflow ›</a></div>
@@ -264,44 +265,51 @@
 		<div class="container-fluid section-6">
 			<div class="container">
 				<div class="row justify-content-center text-center mt-5">
-					<div class="col">
+					<div class="col-sm-12">
 						<p id="case-studies">CASE STUDIES</p>
 						<p class="intro-3">They came, they conquered</p>
 						<p class="intro-desc">An opportunity to introduce the major benefits of your product and set the scene for what's to come</p>
 					</div>
 				</div>
-				<div class="card-container d-flex m-auto justify-content-center">
-					<div class="card" style="width: 18rem">
-						<img src="./assets/img/photo-couple-couch.jpg" class="card-img-top" alt="..." />
-						<div class="card-body">
-							<h5 class="card-title">Pit Stop</h5>
-							<p class="card-text">Pitstop launched their MVP in under 3 months with Wingman</p>
-						</div>
 
-						<div class="card-body">
-							<a href="#" class="card-link">Read their story ›</a>
+				<div class="row justify-content-center text-center">
+					<div class="col-12 col-md-12 col-lg-4">
+						<div class="card">
+							<img src="./assets/img/photo-couple-couch.jpg" class="img-fluid card-img-top" alt="..." />
+							<div class="card-body">
+								<h5 class="card-title">Pit Stop</h5>
+								<p class="card-text">Pitstop launched their MVP in under 3 months with Wingman</p>
+							</div>
+
+							<div class="card-body">
+								<a href="#" class="card-link">Read their story ›</a>
+							</div>
 						</div>
 					</div>
-					<div class="card" style="width: 18rem">
-						<img src="./assets/img/photo-couple-couch.jpg" class="card-img-top" alt="..." />
-						<div class="card-body">
-							<h5 class="card-title">Pit Stop</h5>
-							<p class="card-text">Pitstop launched their MVP in under 3 months with Wingman</p>
-						</div>
+					<div class="col-12 col-md-12 col-lg-4">
+						<div class="card">
+							<img src="./assets/img/photo-man-book.jpg" class="card-img-top" alt="..." />
+							<div class="card-body">
+								<h5 class="card-title">Bench</h5>
+								<p class="card-text">Bench built their business-facing invoicing system with Wingman.</p>
+							</div>
 
-						<div class="card-body">
-							<a href="#" class="card-link">Read their story ›</a>
+							<div class="card-body">
+								<a href="#" class="card-link">Read their story ›</a>
+							</div>
 						</div>
 					</div>
-					<div class="card" style="width: 18rem">
-						<img src="./assets/img/photo-couple-couch.jpg" class="card-img-top" alt="..." />
-						<div class="card-body">
-							<h5 class="card-title">Pit Stop</h5>
-							<p class="card-text">Pitstop launched their MVP in under 3 months with Wingman</p>
-						</div>
+					<div class="col-12 col-md-12 col-lg-4">
+						<div class="card">
+							<img src="./assets/img/photo-man-box.jpg" class="card-img-top" alt="..." />
+							<div class="card-body">
+								<h5 class="card-title">Movend</h5>
+								<p class="card-text">Movend delivered their customers a more streamlined moving experience.</p>
+							</div>
 
-						<div class="card-body">
-							<a href="#" class="card-link">Read their story ›</a>
+							<div class="card-body">
+								<a href="#" class="card-link">Read their story ›</a>
+							</div>
 						</div>
 					</div>
 				</div>
@@ -310,56 +318,64 @@
 
 		<!-- section 7 -->
 
-		<div class="container-fluid">
+		<div class="container-fluid section-7">
 			<div class="container text-center">
 				<h1>Don’t wait, sign up now for a 30 day trial.</h1>
-				<div class="form-container text-start d-flex justify-content-center">
-					<div class="mb-3">
-						<label for="exampleInputUsername" class="form-label">Username</label>
-						<input type="username" class="form-control" placeholder="Pick a username" />
+
+				<div class="row justify-content-center align-items-center text-start mt-5">
+					<div class="col-12 col-md-6 col-lg-3">
+						<div class="username-box mb-3">
+							<label for="exampleInputUsername" class="form-label">Username</label>
+							<input type="username" class="form-control" placeholder="Pick a username" />
+						</div>
 					</div>
-					<div class="mb-3">
-						<label for="exampleInputEmail1" class="form-label">Email address</label>
-						<input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email" />
+					<div class="col-12 col-md-6 col-lg-3">
+						<div class="email-box mb-3">
+							<label for="exampleInputEmail1" class="form-label">Email address</label>
+							<input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email" />
+						</div>
 					</div>
-					<div class="mb-3">
-						<label for="exampleInputPassword1" class="form-label">Password</label>
-						<input type="password" class="form-control" id="exampleInputPassword1" placeholder="Enter password" />
-						<div id="passwordHelp" class="form-text">We'll never share your email with anyone else.</div>
+					<div class="col-12 col-md-6 col-lg-3">
+						<div class="password-box mb-3">
+							<label for="exampleInputPassword1" class="form-label">Password</label>
+							<input type="password" class="form-control" id="exampleInputPassword1" placeholder="Enter password" />
+							<div id="passwordHelp" class="form-text">We'll never share your email with anyone else.</div>
+						</div>
 					</div>
-					<div class="d-flex justify-content-center"><button type="submit" class="btn btn-success">Sign up for Wingman</button></div>
+					<div class="col-12 col-md-6 col-lg-3">
+						<div class="d-flex text-white sign-up-button justify-content-center align-items-center">
+							<a href="#"><b>Sign up for Wingman</b></a>
+						</div>
+					</div>
 				</div>
 			</div>
 		</div>
 
 		<!-- section 8 -->
 
-		<div class="container-fluid text-center announcement-bar text-white">
+		<div class="container-fluid announcement-bar text-white">
 			<div class="container">
-				<div class="row">
-					<div class="col">
-						<ul>
-							<li>Use this handy announcement bar to talk about new features</li>
-						</ul>
+				<div class="row p-2 text-center align-items-center justify-content-center">
+					<div class="col-12 col-md-6">
+						<p><i class="bi bi-paint-bucket"></i> Use this handy announcement bar to talk about new features <a href="#">View changelog ></a></p>
 					</div>
-					<div class="col">View changelog ></div>
 				</div>
 			</div>
 		</div>
 
 		<!-- footer -->
 
-		<div class="container-fluid bg-dark text-white">
+		<div class="container-fluid bg-dark text-white footer">
 			<div class="container">
 				<div class="row">
-					<div class="col">
+					<div class="col-12 col-lg-4">
 						<img src="./assets/img/logo-white.svg" alt="logo-white" />
 						<p>© 2019 Medium Rare Template available exclusively at Bootstrap Themes</p>
 					</div>
 
 					<div class="col">
 						<div class="row">
-							<div class="col">
+							<div class="col-12">
 								<div><h4>A robust suite of styled components for Bootstrap 4</h4></div>
 							</div>
 						</div>

@@ -136,6 +136,7 @@ body {
 
 .nav-container {
 	background-color: #212529;
+	padding-bottom: 50px;
 }
 
 nav .navbar-nav a {
@@ -156,6 +157,7 @@ nav .navbar-nav a {
 .main-container {
 	background-color: #212529;
 	background-image: url(./assets/img/graphic-bg-clouds-2.png);
+	padding-bottom: 80px;
 }
 
 .main-container h1 {
@@ -295,6 +297,11 @@ nav .navbar-nav a {
 
 .section-4 {
 	list-style-type: none;
+	padding-bottom: 50px;
+}
+
+.section-4 h3 {
+	font-size: 28px;
 }
 #intro-4-desc {
 	margin-bottom: 1.5rem;
@@ -311,6 +318,8 @@ nav .navbar-nav a {
 /* section 6 */
 .section-6 {
 	padding-top: 50px;
+	margin-bottom: 50px;
+	padding-bottom: 50px;
 	background-color: #f8f9fa;
 }
 #case-studies {
@@ -320,6 +329,40 @@ nav .navbar-nav a {
 	color: #adb5bd;
 	display: block;
 	font-weight: 500;
+}
+/* section 7 */
+.section-7 {
+	padding-bottom: 50px;
+}
+
+.sign-up-button {
+	width: 261px;
+	height: 48px;
+	background-color: #02b875;
+}
+
+.sign-up-button a {
+	text-decoration: none;
+	color: white;
+}
+
+.announcement-bar a {
+	color: white;
+	text-decoration: none;
+}
+
+/* footer CSS */
+
+.footer {
+	padding-top: 50px;
+}
+
+.footer ul,
+li {
+	list-style-type: none;
+	list-style-position: inside;
+	margin: 0;
+	padding: 0;
 }
 /* breakpoints */
 
