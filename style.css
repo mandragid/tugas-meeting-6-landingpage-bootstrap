@@ -158,13 +158,13 @@ nav .navbar-nav a {
 	padding: 20px;
 }
 
-.card-body {
-	outline: solid red;
-}
-
 .numberContainer {
 	background-color: rgb(38, 38, 126);
 	border-radius: 50px;
 	width: 30px;
 	height: 30px;
+}
+
+.announcement-bar {
+	background: linear-gradient(135deg, #6f42c1 0%, #4582ec 100%);
 }
