@@ -124,7 +124,15 @@ table {
 	border-spacing: 0;
 }
 
+html,
+body {
+	max-width: 100%;
+	overflow-x: hidden;
+}
+
 /* end of css reset */
+
+/* nav CSS */
 
 .nav-container {
 	background-color: #212529;
@@ -143,9 +151,74 @@ nav .navbar-nav a {
 	color: white;
 }
 
+/* hero content CSS */
+
 .main-container {
 	background-color: #212529;
 	background-image: url(./assets/img/graphic-bg-clouds-2.png);
+}
+
+.main-container h1 {
+	line-height: 4.5rem;
+	margin-bottom: 1.5rem;
+	color: #343a40;
+	letter-spacing: -0.02em;
+	font-size: 4.5rem;
+	font-weight: 400;
+	line-height: 1.1;
+}
+
+.main-container p {
+	font-size: 1.25rem;
+	color: #ced4da;
+	font-weight: 400;
+}
+
+/* section 1 */
+
+#meet-the-future {
+	font-size: 0.875rem;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	color: #adb5bd;
+	display: block;
+	font-weight: 500;
+}
+
+#intro {
+	font-size: 3.5rem;
+	font-weight: 400;
+	color: #343a40;
+}
+
+.intro-desc {
+	margin-bottom: 1.5rem;
+	line-height: 1.875rem;
+	display: block;
+	font-weight: 400;
+	font-size: 1.25rem;
+}
+
+#intro-2 {
+	line-height: 1.5rem;
+	margin-bottom: 0.75rem;
+	font-size: 1rem;
+	font-weight: 500;
+	letter-spacing: -0.02em;
+	margin-top: 50px;
+}
+
+#intro-2-desc {
+	margin-top: 0;
+	margin-bottom: 1rem;
+	line-height: 1.5;
+	color: #495057;
+	font-size: 0.875rem;
+}
+
+#intro-2-link {
+	text-decoration: none;
+	color: #4582ec;
 }
 
 .section-1 {
@@ -158,13 +231,97 @@ nav .navbar-nav a {
 	padding: 20px;
 }
 
-.numberContainer {
-	background-color: rgb(38, 38, 126);
-	border-radius: 50px;
-	width: 30px;
-	height: 30px;
+/* section 2 */
+
+.section-2 {
+	border-bottom: 2px solid rgb(224, 224, 224);
+	padding-bottom: 50px;
+	background-color: #f8f9fa;
+}
+.photoWomanLaptop img {
+	width: 736px;
 }
 
+/* section 3 */
+
+.section-3 {
+	padding-top: 50px;
+	background-color: #f8f9fa;
+}
+
+#welcome-home {
+	font-size: 0.875rem;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	color: #adb5bd;
+	display: block;
+	font-weight: 500;
+}
+
+.intro-3 {
+	font-size: 3.5rem;
+	font-weight: 400;
+	color: #343a40;
+}
+
+.card-body-1 {
+	background-color: white;
+
+	padding: 1.5rem;
+}
+
+.card-container ul li a {
+	text-decoration: none;
+	color: black;
+}
+
+.card-container ul {
+	padding: 0;
+	list-style-type: none;
+}
+
+.numberContainer {
+	background-color: #4582ec;
+	border-radius: 50px;
+	width: 45px;
+	height: 45px;
+}
+
+#card-number {
+	font-size: 1.75rem;
+}
+
+/* section 4 */
+
+.section-4 {
+	list-style-type: none;
+}
+#intro-4-desc {
+	margin-bottom: 1.5rem;
+	line-height: 1.875rem;
+	font-size: 1.25rem;
+	font-weight: 400;
+}
 .announcement-bar {
 	background: linear-gradient(135deg, #6f42c1 0%, #4582ec 100%);
+}
+
+/* section 5 */
+
+/* section 6 */
+.section-6 {
+	padding-top: 50px;
+	background-color: #f8f9fa;
+}
+#case-studies {
+	font-size: 0.875rem;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	color: #adb5bd;
+	display: block;
+	font-weight: 500;
+}
+/* breakpoints */
+
+@media only screen and (min-width: 1800px) {
 }

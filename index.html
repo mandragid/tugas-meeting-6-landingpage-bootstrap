@@ -11,6 +11,8 @@
 			integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
 			crossorigin="anonymous"
 		/>
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css" />
+
 		<script
 			src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
 			integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
@@ -81,11 +83,11 @@
 						<div class="row">
 							<div class="col-12 col-md-6 col-lg-5~">
 								<h1 class="display-3 text-white">Build a stunning website</h1>
-								<p class="text-white">A robust suite of styled components, powered by Bootstrap 4. Ready to take your Website or App up a notch?</p>
+								<p>A robust suite of styled components, powered by Bootstrap 4. Ready to take your Website or App up a notch?</p>
 							</div>
 						</div>
 					</div>
-					<div class="col form-container">
+					<div class="col-12 col-md-6 col-lg-5 form-container">
 						<form>
 							<div class="mb-3">
 								<label for="exampleInputUsername" class="form-label">Username</label>
@@ -112,58 +114,94 @@
 
 		<!-- section 2 -->
 
-		<div class="container-fluid">
+		<div class="container-fluid section-2">
 			<div class="container justify-content-center text-center mt-5">
-				<div class="row">
-					<div class="col-lg-12">
-						<p>MEET THE FUTURE</p>
-						<p>Introducing a new way</p>
-						<p>An opportunity to introduce the major benefits of your product and set the scene for what's to come</p>
+				<div class="row justify-content-center">
+					<div class="col-12 col-md-9 col-lg-6">
+						<p id="meet-the-future">MEET THE FUTURE</p>
+						<p id="intro">Introducing a new way</p>
+						<p id="intro-desc">An opportunity to introduce the major benefits of your product and set the scene for what's to come</p>
 					</div>
 				</div>
-				<div class="row">
-					<img class="photoWomanLaptop" src="./assets/img/photo-woman-in-front-of-laptop.jpg" alt="photo-woman-in-front-of-laptop" />
+				<div class="row photoWomanLaptop justify-content-center">
+					<img class="img-fluid" src="./assets/img/photo-woman-in-front-of-laptop.jpg" alt="photo-woman-in-front-of-laptop" />
 				</div>
-				<div class="row">
-					<p>Introducing a new way</p>
-					<p>An opportunity to introduce the major benefits of your product and set the scene for what's to come</p>
-					<p><a href="#">View more features ›</a></p>
+				<div class="row justify-content-center">
+					<div class="col-lg-4 col-md-5">
+						<p id="intro-2">Introducing a new way</p>
+						<p id="intro-2-desc">An opportunity to introduce the major benefits of your product and set the scene for what's to come</p>
+						<p><a id="intro-2-link" href="#">View more features ›</a></p>
+					</div>
 				</div>
 			</div>
 		</div>
 
 		<!-- section 3 -->
 
-		<div class="container-fluid">
+		<div class="container-fluid section-3">
 			<div class="container justify-content-center text-center">
-				<div class="row">
-					<div class="col-lg-12">
-						<p>WELCOME HOME</p>
-						<p>Greatly simplified workflow</p>
-						<p>An opportunity to introduce the major benefits of your product and set the scene for what's to come</p>
+				<div class="row justify-content-center">
+					<div class="col-12 col-md-9 col-lg-7 mb-5">
+						<p id="welcome-home">WELCOME HOME</p>
+						<p class="intro-3">Greatly simplified workflow</p>
+						<p class="intro-desc">An opportunity to introduce the major benefits of your product and set the scene for what's to come</p>
 					</div>
 				</div>
-				<div class="row">
-					<div class="col"><img src="./assets/img/graphic-desktop.svg" alt="graphic-desktop" /></div>
-					<div class="col">
+				<div class="row justify-content-center">
+					<div class="col-md-5 col-7 mb-4"><img class="img-fluid w-75" src="./assets/img/graphic-desktop.svg" alt="graphic-desktop" /></div>
+					<div class="col-lg-5 col-md-8 col-lg-2">
 						<div class="row">
 							<div class="col">
-								<div class="card-body">
-									<div class="row">
-										<div class="col-1"><div class="numberContainer text-white">1</div></div>
-										<div class="col text-start">
-											<p>Create an account</p>
-											<p>It’s even easier than it sounds, you just need an email address</p>
-										</div>
-									</div>
+								<div class="card-container">
+									<ul>
+										<li>
+											<a href="#">
+												<div class="card-body-1 mb-3">
+													<div class="row align-items-center">
+														<div class="col-2">
+															<div class="numberContainer text-white text-center"><p id="card-number">1</p></div>
+														</div>
+														<div class="col text-start">
+															<h5>Create an account</h5>
+															<p>It’s even easier than it sounds, you just need an email address</p>
+														</div>
+													</div>
+												</div>
+											</a>
+										</li>
+										<li>
+											<a href="#">
+												<div class="card-body-1 mb-3">
+													<div class="row align-items-center">
+														<div class="col-2">
+															<div class="numberContainer text-white text-center"><p id="card-number">2</p></div>
+														</div>
+														<div class="col text-start">
+															<h5>Start a project</h5>
+															<p>With tons of tutorials and examples, this part is even easier than the last</p>
+														</div>
+													</div>
+												</div>
+											</a>
+										</li>
+										<li>
+											<a href="#">
+												<div class="card-body-1 mb-5">
+													<div class="row align-items-center">
+														<div class="col-2">
+															<div class="numberContainer text-white text-center"><p id="card-number">3</p></div>
+														</div>
+														<div class="col text-start">
+															<h5>Deploy and conquer</h5>
+															<p>That was easy, right? Now it’s time to deploy that badboy and let the world know</p>
+														</div>
+													</div>
+												</div>
+											</a>
+										</li>
+									</ul>
 								</div>
 							</div>
-						</div>
-						<div class="row">
-							<div class="col">div1</div>
-						</div>
-						<div class="row">
-							<div class="col">div1</div>
 						</div>
 					</div>
 				</div>
@@ -172,28 +210,29 @@
 
 		<!-- section 4 -->
 
-		<div class="container-fluid">
+		<div class="container-fluid section-4">
 			<div class="row">
 				<div class="col">
-					<div class="row">
-						<div class="col">
-							<p>Synced for your convenience</p>
-							<p>Fuss-free and simple to use</p>
-							<ul>
-								<li>
-									<div>
-										<p>Media</p>
+					<div class="container">
+						<div class="row mx-auto">
+							<div class="col mx-auto">
+								<h3>Synced for your convenience</h3>
+								<p id="intro-4-desc">Fuss-free and simple to use</p>
+								<ul>
+									<li>
+										<i class="bi bi-arrow-down-right"></i>
+
+										Media
 										<p>A short description of the aforementioned facet to easily digest. No need to divulge too much information in this text area.</p>
-									</div>
-								</li>
-								<li>
-									<div>
-										<p>Cards</p>
+									</li>
+									<li>
+										<i class="bi bi-layers-fill"></i>
+										Cards
 										<p>Another brief description of a facet that, as before, doesn't need to go into great detail.</p>
-									</div>
-								</li>
-							</ul>
-							<a href="#">Learn more about Sync ></a>
+									</li>
+								</ul>
+								<a href="#">Learn more about Sync ></a>
+							</div>
 						</div>
 					</div>
 				</div>
@@ -222,13 +261,13 @@
 
 		<!-- section 6 -->
 
-		<div class="container-fluid">
+		<div class="container-fluid section-6">
 			<div class="container">
-				<div class="row">
+				<div class="row justify-content-center text-center mt-5">
 					<div class="col">
-						<p>CASE STUDIES</p>
-						<p>They came, they conquered</p>
-						<p>An opportunity to introduce the major benefits of your product and set the scene for what's to come</p>
+						<p id="case-studies">CASE STUDIES</p>
+						<p class="intro-3">They came, they conquered</p>
+						<p class="intro-desc">An opportunity to introduce the major benefits of your product and set the scene for what's to come</p>
 					</div>
 				</div>
 				<div class="card-container d-flex m-auto justify-content-center">
@@ -286,7 +325,7 @@
 					<div class="mb-3">
 						<label for="exampleInputPassword1" class="form-label">Password</label>
 						<input type="password" class="form-control" id="exampleInputPassword1" placeholder="Enter password" />
-						<div id="passwordHelp" class="form-text">At least seven letters with one numeral</div>
+						<div id="passwordHelp" class="form-text">We'll never share your email with anyone else.</div>
 					</div>
 					<div class="d-flex justify-content-center"><button type="submit" class="btn btn-success">Sign up for Wingman</button></div>
 				</div>
